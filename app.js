@@ -519,7 +519,7 @@ function shareContent() {
     const timeDiff = currentDate - startDate;
     const dayNumber = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
-    const textToShare = `LDRdle Day ${dayNumber}: ${guesses.length}/8\n\n${emojis}\nwww.yachtle.xyz 🍒`;
+    const textToShare = `LDRdle Day ${dayNumber}: ${guesses.length}/8\n\n${emojis}\nhttps://ertersy40.github.io/LDRdle/ 🍒`;
 
     // Assuming desktops are less likely to be touch-enabled, use this as a heuristic
     // This is not a perfect check, as some desktops are touch-enabled
