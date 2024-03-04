@@ -310,7 +310,7 @@ let albumsData = [];
 
 // Adjust the fetchAlbums function to also set albumsData
 function fetchAlbums() {
-    return fetch('songs.json') // Start the fetch operation
+    return fetch('ldr.json') // Start the fetch operation
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
